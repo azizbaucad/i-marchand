@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".ListTransaction">
+    <LinearLayout
+    android:id="@+id/fxBack"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#FFFFFF"
+    android:padding="1dp"
+    android:paddingRight="24dp">
+    <ImageView
+        android:id="@+id/btn_back_img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back02"
+        android:contentDescription="Retour"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        android:text="Transactions"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+</LinearLayout>
+    <ListView
+        android:layout_below="@id/fxBack"
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4CAF50" />
+</RelativeLayout>

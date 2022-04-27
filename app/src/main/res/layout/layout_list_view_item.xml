@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/typeTransaction"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="1dp"
+            android:gravity="left"
+            android:text="Retrait"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:text="500"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/montant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="left"
+        android:text="20/03/2022"
+        android:textStyle="normal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/idTransact"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+         />
+    <TextView
+        android:id="@+id/soldeNouveau"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+    <TextView
+        android:id="@+id/typeOperation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+
+</RelativeLayout>

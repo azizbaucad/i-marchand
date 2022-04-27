@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".fixerMontantActivity">
+
+    <LinearLayout
+        android:id="@+id/fxBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:paddingRight="24dp">
+        <ImageView
+            android:id="@+id/btn_back_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/back02"
+            android:contentDescription="Retour"
+            android:layout_alignParentStart="true"/>
+        <!-- End Image Back -->
+        <!-- Text in appBar -->
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="Fixer Montant"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+      <!--  <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/set_white"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="180dp"/>-->
+
+        <!-- End Image Back -->
+        <!-- Text in appBar -->
+        <!-- End TExt in appBar -->
+    </LinearLayout>
+    <!-- Mettre ici Le EditText -->
+    <EditText
+        android:id="@+id/edit_fix_montant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="50dp"
+        android:drawableRight="@drawable/ic_credit_card"
+        android:drawablePadding="0dp"
+        android:hint="Enter le montant à fixer"
+        android:inputType="number"
+        android:textColor="#000"
+        android:layout_below="@+id/fxBack"
+        android:textSize="22sp"/>
+    <!-- Fin du EdiText -->
+    <!-- Mettre ici le Button valider -->
+    <Button
+        android:id="@+id/fixmontant"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/edit_fix_montant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="valider"
+        android:background="@drawable/custom_rl"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <!-- Fin du Button -->
+
+    <!--&lt;!&ndash; Address Label &ndash;&gt;
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="1dp"
+        android:text="FIXEZ UN MONTANT"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    &lt;!&ndash; Address Label &ndash;&gt;
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nom_text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <EditText
+
+            android:id="@+id/edit_fix_montant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="25"
+            android:drawablePadding="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="0dp"
+            android:inputType="number"
+            android:hint="Entrer un montant"
+            android:autofillHints="" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/fixmontant"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundedbutton"
+        android:text="VALIDER"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>-->
+</RelativeLayout>

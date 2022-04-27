@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">i-payMarchand</string>
+    <string name="todo">TODO</string>
+    <string name="enrolement_avec_d_p_t">Enrolement avec dépôt   </string>
+    <string name="num_ro_de_t_l_phone">Numéro de téléphone</string>
+    <string name="entrez_un_montant">Pour payer, entrez le montant à payer et placez la carte derrière l\'appareil.</string>
+    <string name="connection_text">Connexion</string>
+    <string name="to_connect_text">SE CONNECTER</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="nom">Nom</string>
+    <string name="montant_d_poser">Montant à déposer</string>
+    <string name="valider">valider</string>
+    <string name="innov4africa_text">INNOV4AFRICA</string>
+    <string name="fix_amount_text">Fixer un montant</string>
+    <string name="amount_hint_text">Entrez le montant</string>
+    <string name="instruction_text">Pour payer, entrez le montant et placez la carte derrière l\'appareil</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">IPay Marchand</string>
+    <string name="nav_header_subtitle">Paiement sans contact</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="log_out">Déconnexion</string>
+
+    <!--NFC TAG ACTIVITY-->
+    <string name="currency"> F</string>
+
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FFF"
+    tools:context="appl.innov.i_marchand.LoginActivity">
+
+    <!-- <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:layout_marginBottom="@dimen/activity_vertical_margin"
+         android:layout_marginTop="@dimen/activity_vertical_margin"
+         android:focusableInTouchMode="true">-->
+
+    <!--<TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/marron"
+        android:text="Connexion"
+        android:textStyle="bold"
+        android:textSize="22sp"/>-->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <!--<TextView
+        android:id="@+id/i-text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/marron"
+        android:text="Connexion"
+        android:textStyle="normal"
+
+        android:textSize="22sp"/>-->
+
+
+    <EditText
+        android:id="@+id/emailOubTxt"
+        android:layout_below="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:hint="Téléphone"
+        android:ems="10"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_rl"
+        android:drawablePadding="12dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableRight="@drawable/modern_icon_phone"/>
+    <EditText
+        android:id="@+id/passworOubTxt"
+        android:layout_below="@+id/emailOubTxt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:ems="10"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_rl"
+        android:drawablePadding="12dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableRight="@drawable/modern_icon_password"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/custom_rl"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="@font/text"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="se connecter"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/logo01"
+        android:src="@drawable/ic_nfc_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/loginBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/paiement"
+        android:layout_below="@+id/logo01"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Paiement sans contact"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/i-marchand"
+        android:layout_below="@+id/paiement"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/colorPrimary"
+        android:text="I-Marchand"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i-marchand"
+        android:layout_centerHorizontal="true"
+        android:text="Copyright 2022 - Innov4Africa"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+</RelativeLayout>
+
+
+    <!--
+    </RelativeLayout>-->
